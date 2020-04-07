@@ -1,0 +1,8 @@
+spring:
+  thymeleaf:
+    cache: false
+    mode: HTML
+  profiles:
+    active: pro
+comment.avatar: /images/2.jpg
+

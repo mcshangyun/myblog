@@ -1,0 +1,12 @@
+2020-04-07 10:09:28.569  INFO 1256 --- [restartedMain] com.mcsy.blog.BlogApplication            : Starting BlogApplication on DESKTOP-B1C32T2 with PID 1256 (D:\45-blog\MyBlog\target\classes started by 15199 in D:\45-blog\MyBlog)
+2020-04-07 10:09:28.576  INFO 1256 --- [restartedMain] com.mcsy.blog.BlogApplication            : The following profiles are active: pro
+2020-04-07 10:09:39.746  WARN 1256 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-07 10:09:44.617  INFO 1256 --- [restartedMain] com.mcsy.blog.BlogApplication            : Started BlogApplication in 17.352 seconds (JVM running for 20.175)
+2020-04-07 10:10:15.746  INFO 1256 --- [http-nio-80-exec-1] com.mcsy.blog.aspect.AspectLog           : 访客访问信息 : 接收到的参数{url='http://127.0.0.1/', ip='127.0.0.1', args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}], classMethod='com.mcsy.blog.controller.IndexController.index'}
+2020-04-07 10:10:16.739  WARN 1256 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-04-07 10:10:16.868  WARN 1256 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-04-07 10:10:16.874  INFO 1256 --- [http-nio-80-exec-1] com.mcsy.blog.aspect.AspectLog           : *--------doAfter 方法-------
+2020-04-07 10:10:16.874  INFO 1256 --- [http-nio-80-exec-1] com.mcsy.blog.aspect.AspectLog           : result : index
+2020-04-07 10:10:51.403  INFO 1256 --- [http-nio-80-exec-6] com.mcsy.blog.aspect.AspectLog           : 访客访问信息 : 接收到的参数{url='http://127.0.0.1/about', ip='127.0.0.1', args=[], classMethod='com.mcsy.blog.controller.AboutController.about'}
+2020-04-07 10:10:51.406  INFO 1256 --- [http-nio-80-exec-6] com.mcsy.blog.aspect.AspectLog           : *--------doAfter 方法-------
+2020-04-07 10:10:51.406  INFO 1256 --- [http-nio-80-exec-6] com.mcsy.blog.aspect.AspectLog           : result : about
